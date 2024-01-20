@@ -20,7 +20,7 @@ async function submitForm(e){
     e.preventDefault();
     var name = getInputVal('name');
     var email = getInputVal('email');
-    var date3 = getInputVal('date3');
+    var date3 = getInputVal('datetime');
     var message = getInputVal('message');
 
     await saveMessage(name, email, date3,message);
