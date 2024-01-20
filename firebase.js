@@ -25,7 +25,7 @@ async function submitForm(e){
     var select1 = getInputVal('select1');
     var message = getInputVal('message');
 
-    await saveMessage(name, email, msg);
+    await saveMessage(name, email, datetime,select1,message);
     alert("Your Response has been recorded.\nThanks For Your Response 💓🙂");
     // Clear form
     document.getElementById('tourBook').reset();
