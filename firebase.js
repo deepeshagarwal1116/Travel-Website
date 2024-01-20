@@ -12,7 +12,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 
-var messagesRef = firebase.firestore().collection('tour').ref('messages');
+var messagesRef = firebase.database().ref('messages');
 
 document.getElementById("tourBook").addEventListener('submit',submitForm);
 
