@@ -1,11 +1,12 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDmiFBPEC3ALqmNMIvJe87SvRGuXcOxQhY",
-    authDomain: "plan-it-contact.firebaseapp.com",
-    projectId: "plan-it-contact",
-    storageBucket: "plan-it-contact.appspot.com",
-    messagingSenderId: "111214089914",
-    appId: "1:111214089914:web:e7695f9d0bc604bb37d483",
-    databaseURL:"https://plan-it-hotel-default-rtdb.firebaseio.com/"};
+    apiKey: "AIzaSyAsW6mi9VjBi2FKcaDf8OrS_taKXXjb8TM",
+    authDomain: "plan-it-hotel.firebaseapp.com",
+    projectId: "plan-it-hotel",
+    storageBucket: "plan-it-hotel.appspot.com",
+    messagingSenderId: "748756725170",
+    appId: "1:748756725170:web:01ef27620f089623e388ab",
+    databaseURL:"https://plan-it-hotel-default-rtdb.firebaseio.com/"
+};
 
     firebase.initializeApp(firebaseConfig);
 
