@@ -33,7 +33,7 @@ async function submitForm(e){
   }
   
   // Save message to firebase
-  function saveMessage(name, email, subject,message){
+  function saveMessage(name, email, date3,message){
     var newMessageRef = messagesRef.push();
     newMessageRef.set({
       name: name,
